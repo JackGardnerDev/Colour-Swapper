@@ -1,0 +1,28 @@
+:root[data-theme="light"] {
+    --bg-color: #fff;
+    --text-color: #000;
+  }
+  
+  :root[data-theme="dark"] {
+    --bg-color: #333;
+    --text-color: #fff;
+  }
+  
+  :root[data-theme="blue"] {
+    --bg-color: #1e90ff;
+    --text-color: #fff;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  /* Not required for functionality */
+  body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
